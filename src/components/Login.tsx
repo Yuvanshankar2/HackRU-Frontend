@@ -111,7 +111,7 @@ export function Login({ onBackToHome, onLogin }: LoginProps) {
               <Input
                 id="email"
                 type="email"
-                placeholder="you@example.com"
+                placeholder="youexample.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="bg-input-background border-border/50 text-foreground placeholder:text-muted-foreground focus:border-primary/50 focus:ring-primary/20"
